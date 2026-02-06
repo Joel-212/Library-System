@@ -1,0 +1,31 @@
+ONLINE LIBRARY MANAGEMENT SYSTEM – TEST CASES
+
+TC1: Borrow available book
+Input: User 101 borrows Book 1
+Expected: Book borrowed successfully
+Result: PASS
+
+TC2: Borrow unavailable book
+Input: User 101 borrows Book 1 again
+Expected: Borrowing failed
+Result: PASS
+
+TC3: Return borrowed book
+Input: User 101 returns Book 1
+Expected: Book returned successfully
+Result: PASS
+
+TC4: Return non-borrowed book
+Input: User 101 returns Book 1 again
+Expected: Return failed
+Result: PASS
+
+TC5: Invalid user
+Input: User 999 borrows Book 1
+Expected: Borrowing failed
+Result: PASS
+
+TC6: Invalid book
+Input: User 101 borrows Book 999
+Expected: Borrowing failed
+Result: PASS
